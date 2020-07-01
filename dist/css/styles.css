@@ -273,3 +273,21 @@ body{
     width: 80px;
 } */
 
+.links{
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+}
+.links a{
+    color: #debec3;
+    text-decoration: none;
+    transition: all 0.10s linear;
+}
+.links a:first-child{
+    margin-right: 1rem
+}
+.links a:hover{
+    color: #333333
+}
